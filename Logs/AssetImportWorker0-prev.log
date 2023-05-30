@@ -1,0 +1,1263 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 8064 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/pc/AR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+10464
+Successfully changed project path to: C:/Users/pc/AR
+C:/Users/pc/AR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12128] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2310636760 [EditorId] 2310636760 [Version] 1048832 [Id] WindowsEditor(7,R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12128] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2310636760 [EditorId] 2310636760 [Version] 1048832 [Id] WindowsEditor(7,R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 239.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pc/AR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     4032 MB
+    Driver:   20.19.15.5126
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.056339 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 664 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 148.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3361ms)
+		BeginReloadAssembly (701ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2292ms)
+			LoadAssemblies (698ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (1589ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1076ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (149ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012664 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\pc\AR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pc\AR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  2.519 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2521ms)
+		BeginReloadAssembly (340ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1862ms)
+			LoadAssemblies (316ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (639ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (791ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (505ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3413 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (130.8 KB). Loaded Objects now: 3877.
+Memory consumption went from 119.4 MB to 119.3 MB.
+Total: 5.674000 ms (FindLiveObjects: 0.587200 ms CreateObjectMapping: 0.484200 ms MarkObjects: 4.423400 ms  DeleteObjects: 0.177200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1172553.602560 seconds.
+  path: Assets/Japanese Mask
+  artifactKey: Guid(24964f647d89e424f893ebeac12a5a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask using Guid(24964f647d89e424f893ebeac12a5a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4061948e3c90a631f5dce182bc9457b8') in 0.026685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Japanese Mask/Demo SceneSettings.lighting
+  artifactKey: Guid(2960fe73ef6e367489a6af7baaa84294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Demo SceneSettings.lighting using Guid(2960fe73ef6e367489a6af7baaa84294) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '51409396d0a55c5aa24b5b5cb4c9f49c') in 0.089939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/Japanese Mask/Demo Scene.unity
+  artifactKey: Guid(a1af204f8e313fb4eabbc8d9f23ac2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Demo Scene.unity using Guid(a1af204f8e313fb4eabbc8d9f23ac2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371b0456d325b4c151e5d24e47313c62') in 0.032321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.524286 seconds.
+  path: Packages/com.unity.testtools.codecoverage/Editor/Icons/FolderOpened@2x.png
+  artifactKey: Guid(dd4bd79e2c603964e8cbf04d0851a210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/Editor/Icons/FolderOpened@2x.png using Guid(dd4bd79e2c603964e8cbf04d0851a210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca675ecbfda6c73a9c2dfbc74118db0') in 0.773096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Kitsune_SpecRoughness.tif
+  artifactKey: Guid(283f681c36d0cfc4984b07ac7ab976f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Kitsune_SpecRoughness.tif using Guid(283f681c36d0cfc4984b07ac7ab976f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f75401880288ed2e164c98b56e6525d') in 0.419445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Kitsune_Normal.png
+  artifactKey: Guid(23270b6737e5eb441b5c2c26e1f4b619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Kitsune_Normal.png using Guid(23270b6737e5eb441b5c2c26e1f4b619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df219a816d4e058a9006ee4406a048ca') in 0.133895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconprivateoverlay@2x.png
+  artifactKey: Guid(40685941c1361aa4a957b61174bce3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconprivateoverlay@2x.png using Guid(40685941c1361aa4a957b61174bce3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de03ea0072baced17365b4e37aa696ec') in 0.079305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Kitsune_Albedo.png
+  artifactKey: Guid(54263a551d1e06f448819481b7013fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Kitsune_Albedo.png using Guid(54263a551d1e06f448819481b7013fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997f24edac8e9233a4427a10266a1e2f') in 0.270350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.189401 seconds.
+  path: Assets/Japanese Mask/Prefabs
+  artifactKey: Guid(58b28b1229829054e84ec1b1796293e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs using Guid(58b28b1229829054e84ec1b1796293e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79916171b5468561c01056e53dad877') in 0.030291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.807470 seconds.
+  path: Assets/Japanese Mask/Mask
+  artifactKey: Guid(a335d35ce6bceb74a811589513ac41d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Mask using Guid(a335d35ce6bceb74a811589513ac41d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289c3345d836fafa06f5ee070c607462') in 0.018900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.479262 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune
+  artifactKey: Guid(91afe049ad4158d49a48c79434429f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Mask/Kitsune using Guid(91afe049ad4158d49a48c79434429f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8411d35722fc12f3af9a9d806f7ac9') in 0.029554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062397 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Kitsune.fbx
+  artifactKey: Guid(67cfc4f4d06282c489f25681ede6f15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Kitsune.fbx using Guid(67cfc4f4d06282c489f25681ede6f15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9129a3c4457578fcdd5eeef9c799fe6f') in 0.215511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.910264 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2614a1dcc633b868322cafa435f4f2') in 0.406502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.340363 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Materials
+  artifactKey: Guid(c3b6f9a8a5517aa42a27cd79524b6db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Materials using Guid(c3b6f9a8a5517aa42a27cd79524b6db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f37157b380e84fce324960558ce4703') in 0.012401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077484 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Materials/lambert4.mat
+  artifactKey: Guid(8eb248909463cf943a9575260d48a2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Materials/lambert4.mat using Guid(8eb248909463cf943a9575260d48a2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da61c7a1a30c08d628a01a236ed291f1') in 0.075373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137.284880 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(6daf35a6d36f0d144b41e5bee1f339b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(6daf35a6d36f0d144b41e5bee1f339b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e859ee74e5befa462981fc64de5980') in 0.009123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 151.808339 seconds.
+  path: Assets/NewSurfaceShader.shader
+  artifactKey: Guid(dfa683e389652e5408b99fadfc7305c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewSurfaceShader.shader using Guid(dfa683e389652e5408b99fadfc7305c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4a827669638afb585836dc3f983598') in 0.054567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.409374 seconds.
+  path: Assets/NewUnlitShader.shader
+  artifactKey: Guid(6f800ab776afd7e43a154c5d1489d1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewUnlitShader.shader using Guid(6f800ab776afd7e43a154c5d1489d1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5b20edfd60d8fbbea069440dc0503f') in 0.016154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.820377 seconds.
+  path: Assets/FaceOccluder.shader
+  artifactKey: Guid(6f800ab776afd7e43a154c5d1489d1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FaceOccluder.shader using Guid(6f800ab776afd7e43a154c5d1489d1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77c45b7377990e5a6fb37d4ea7976ba') in 0.033515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.965691 seconds.
+  path: Assets/FaceOccluder.shader
+  artifactKey: Guid(6f800ab776afd7e43a154c5d1489d1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FaceOccluder.shader using Guid(6f800ab776afd7e43a154c5d1489d1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32334532b3b9ba9a7ba44dbbd2ccb8cf') in 0.007597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.840124 seconds.
+  path: Assets/Custom_FaceOccluder.mat
+  artifactKey: Guid(4f63b9c4813570b4b9e650249ebdd70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Custom_FaceOccluder.mat using Guid(4f63b9c4813570b4b9e650249ebdd70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfae2797bdcc0bdfc8eb1824457eac7') in 0.094738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.897083 seconds.
+  path: Assets/FaceOccluder.mat
+  artifactKey: Guid(4f63b9c4813570b4b9e650249ebdd70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FaceOccluder.mat using Guid(4f63b9c4813570b4b9e650249ebdd70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafeb21a9b8aabb33ec43786347ef573') in 0.044801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.715719 seconds.
+  path: Assets/FaceOccluder.mat
+  artifactKey: Guid(4f63b9c4813570b4b9e650249ebdd70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FaceOccluder.mat using Guid(4f63b9c4813570b4b9e650249ebdd70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d03af512dee98d07ff5aee50ca7561e') in 0.057509 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.3 KB). Loaded Objects now: 3932.
+Memory consumption went from 56.0 MB to 55.9 MB.
+Total: 13.254500 ms (FindLiveObjects: 0.790900 ms CreateObjectMapping: 0.812300 ms MarkObjects: 11.320400 ms  DeleteObjects: 0.328500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 320.322523 seconds.
+  path: Assets/FaceOccluder.mat
+  artifactKey: Guid(4f63b9c4813570b4b9e650249ebdd70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FaceOccluder.mat using Guid(4f63b9c4813570b4b9e650249ebdd70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6c661adbbcdfe3d59d0f0596cc7a8d') in 0.042390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/hologram_material.mat
+  artifactKey: Guid(3f7be1cf634d6a24e9a8708f1578d2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hologram_material.mat using Guid(3f7be1cf634d6a24e9a8708f1578d2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e2bb1c804178a1db2805c91290c3df') in 0.247917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 246.915002 seconds.
+  path: Assets/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d47ea9184d85bba4fb4b637ca3ec68cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Default Face.prefab using Guid(d47ea9184d85bba4fb4b637ca3ec68cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69da08763b8d5c2ebb0a21b3e57b7378') in 0.188531 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 101.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.3 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.8 MB to 55.7 MB.
+Total: 12.922400 ms (FindLiveObjects: 0.706700 ms CreateObjectMapping: 0.421900 ms MarkObjects: 11.509100 ms  DeleteObjects: 0.282800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 43.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.7 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.8 MB to 55.7 MB.
+Total: 19.775800 ms (FindLiveObjects: 0.780200 ms CreateObjectMapping: 0.826100 ms MarkObjects: 17.918600 ms  DeleteObjects: 0.249000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 21.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.6 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.8 MB to 55.7 MB.
+Total: 42.285500 ms (FindLiveObjects: 0.627900 ms CreateObjectMapping: 0.470500 ms MarkObjects: 40.912200 ms  DeleteObjects: 0.273200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.6 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.8 MB to 55.7 MB.
+Total: 13.483800 ms (FindLiveObjects: 0.806000 ms CreateObjectMapping: 0.879900 ms MarkObjects: 11.442800 ms  DeleteObjects: 0.353300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 964.620120 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafbcad39da98dbf252b917ab44d0aa8') in 0.345390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.920819 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fd9b7b0c86da9ebdbea61be80fb5b8') in 0.207072 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.6 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.8 MB to 55.8 MB.
+Total: 48.752000 ms (FindLiveObjects: 0.871200 ms CreateObjectMapping: 0.818900 ms MarkObjects: 46.693000 ms  DeleteObjects: 0.367500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 228.065369 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f41558b48f03d10bf74ba1076239401') in 0.211445 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.6 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.8 MB to 55.8 MB.
+Total: 30.858800 ms (FindLiveObjects: 0.760900 ms CreateObjectMapping: 5.134300 ms MarkObjects: 24.632300 ms  DeleteObjects: 0.329300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 31.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.6 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.8 MB to 55.8 MB.
+Total: 17.073000 ms (FindLiveObjects: 0.749400 ms CreateObjectMapping: 0.715600 ms MarkObjects: 15.231000 ms  DeleteObjects: 0.375000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 441.171674 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1d954798d868f7fe737403355fc7d2') in 0.317540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.358543 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Materials/Kitsune_Mat.mat
+  artifactKey: Guid(4c3f2a5377031a34fa89f05b03e7772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Materials/Kitsune_Mat.mat using Guid(4c3f2a5377031a34fa89f05b03e7772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eeeabdc528d16c26031447a89d561e6') in 0.242118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.854107 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68093763d1e9b524fb0ca36a13e7389f') in 0.392489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.435477 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9819384feeda4489b962a067950784') in 0.228206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.563834 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9836e4f864a126dd6d0019c00ecfd9b0') in 0.250258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.422171 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acceebce6456f1726be10b404b212d94') in 0.255338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.314811 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af2ba5a9ff02fb5fa5f21daba65fe64') in 0.412768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.683423 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d12f433db1acac1d15bc60e2f9e5ef') in 0.218733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.292938 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7adf5a4d1ae65f0302d4b735bb170b0f') in 0.221407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.754523 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737f69f55f29cc457c56daa6d0eb0093') in 0.249463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.868233 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a2a2837e2e67e13d9ea61d12d08780') in 0.289571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.022067 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2c0a49536555d78d4d2d48f9e0bd97') in 0.282096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.143571 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179b6cb2354b13fec80905205bb8c6e5') in 0.264419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.432990 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0f67a858673f0bc59c0878e8f93f7a') in 0.214071 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 88.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.8 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.8 MB to 55.7 MB.
+Total: 20.157900 ms (FindLiveObjects: 0.983300 ms CreateObjectMapping: 0.920500 ms MarkObjects: 17.925300 ms  DeleteObjects: 0.326700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 123.707772 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcd9c2c2be78f17979802520f0fd7f6') in 0.301783 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 57.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.7 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.8 MB to 55.7 MB.
+Total: 8.769000 ms (FindLiveObjects: 0.812000 ms CreateObjectMapping: 0.898700 ms MarkObjects: 6.869300 ms  DeleteObjects: 0.186700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37.949628 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a544623352f57ee288ab2dd984e7338b') in 0.324876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.448828 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0694af47b67fc668e7c7b1a98579d98b') in 0.196551 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 74.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.7 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.8 MB to 55.8 MB.
+Total: 20.684400 ms (FindLiveObjects: 0.626400 ms CreateObjectMapping: 0.549700 ms MarkObjects: 19.323500 ms  DeleteObjects: 0.183200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.923966 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf0a9af0244c558e4314607500f74ee') in 0.243403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.084574 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f1aa770fe797b2c392581ee6c5eb60') in 0.202361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.561096 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff51933e2c36672db8785198ce859fd') in 0.228010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.291564 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe3a49f2595aef66644ac8d635c53e5') in 0.200335 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.8 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.9 MB to 55.8 MB.
+Total: 11.815700 ms (FindLiveObjects: 0.685200 ms CreateObjectMapping: 0.586100 ms MarkObjects: 10.372000 ms  DeleteObjects: 0.170800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.111754 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045cf496268995bbb62ad2275d52a1c0') in 0.221755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.559534 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6579ae262dd7dbc87690a329239b98d') in 0.257332 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.7 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.9 MB to 55.8 MB.
+Total: 40.939000 ms (FindLiveObjects: 0.922000 ms CreateObjectMapping: 1.149500 ms MarkObjects: 38.437400 ms  DeleteObjects: 0.427400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 303.894591 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d0d79837b34902e774a6a9f04b8f9b') in 0.237578 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 36.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.7 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.9 MB to 55.8 MB.
+Total: 142.937000 ms (FindLiveObjects: 2.047300 ms CreateObjectMapping: 1.124700 ms MarkObjects: 136.194400 ms  DeleteObjects: 3.567000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37.283583 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc13e2fa901a62695f89418767e2e27') in 0.328008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.811958 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823f6917bc778a8f29e22d81d2833e03') in 0.303572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.176501 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6015c4f4588bcc49bcb5f24ea1e224a3') in 0.288439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.261447 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfe01bd1448a9d4327fe1463af947d2') in 0.246658 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 112.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.8 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.9 MB to 55.9 MB.
+Total: 38.450000 ms (FindLiveObjects: 0.745000 ms CreateObjectMapping: 0.804900 ms MarkObjects: 36.611300 ms  DeleteObjects: 0.287400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102.724387 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc15198737605b8adfc2e6b70177474') in 0.289124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.093215 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df62c891527916af965d44692f490ed9') in 0.295749 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.7 KB). Loaded Objects now: 3932.
+Memory consumption went from 55.9 MB to 55.9 MB.
+Total: 25.761800 ms (FindLiveObjects: 0.789700 ms CreateObjectMapping: 0.697200 ms MarkObjects: 23.926800 ms  DeleteObjects: 0.345700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 222.607716 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983d6554e79901946ae03d35c7ab964e') in 0.363098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.315615 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178cfa6dbf059e176d3251a6ed56ad36') in 0.241115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.119306 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f74b9f0782f3ffe8a654b2b60a9f33c') in 0.096201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.153217 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03137ddb20796a4bb4241243d3a7a52f') in 0.196595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.162582 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0f5f4c84559725716e35c40e61f528') in 0.286978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.922568 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631f57e34de530783c7504a1e1c6c3cb') in 0.300384 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 133.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (77.8 KB). Loaded Objects now: 3932.
+Memory consumption went from 56.0 MB to 55.9 MB.
+Total: 18.282200 ms (FindLiveObjects: 0.761900 ms CreateObjectMapping: 0.855000 ms MarkObjects: 16.389700 ms  DeleteObjects: 0.274000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 24.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.7 KB). Loaded Objects now: 3932.
+Memory consumption went from 56.0 MB to 55.9 MB.
+Total: 16.139400 ms (FindLiveObjects: 0.800500 ms CreateObjectMapping: 0.648700 ms MarkObjects: 14.334900 ms  DeleteObjects: 0.353900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 400.709210 seconds.
+  path: Assets/FaceOccluder.mat
+  artifactKey: Guid(4f63b9c4813570b4b9e650249ebdd70e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FaceOccluder.mat using Guid(4f63b9c4813570b4b9e650249ebdd70e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '553e2a4fd0ab6a4eace3991baf957b88') in 1.278665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/hologram_material.mat
+  artifactKey: Guid(3f7be1cf634d6a24e9a8708f1578d2f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/hologram_material.mat using Guid(3f7be1cf634d6a24e9a8708f1578d2f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d5c9d8d93b095a06cf7000028e11a85') in 0.317547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Kitsune_Normal.png
+  artifactKey: Guid(23270b6737e5eb441b5c2c26e1f4b619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Kitsune_Normal.png using Guid(23270b6737e5eb441b5c2c26e1f4b619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62d26677095d3d9142db44e9c98d4024') in 0.609721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Kitsune_Albedo.png
+  artifactKey: Guid(54263a551d1e06f448819481b7013fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Kitsune_Albedo.png using Guid(54263a551d1e06f448819481b7013fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd79c5a614a9b3d1c7c3f2bfb12f3c5a5') in 0.255368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Japanese Mask/Shaders/StandardSpecular.shader
+  artifactKey: Guid(5c8da927d66a31340bde6d8b4f8f2639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Shaders/StandardSpecular.shader using Guid(5c8da927d66a31340bde6d8b4f8f2639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ef35bcdd3353427b8bec41888d6ede9') in 0.217570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/XR/Settings/AR Core Settings.asset
+  artifactKey: Guid(8a2bad46ab94d04479b61f8c3ed9fd9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Settings/AR Core Settings.asset using Guid(8a2bad46ab94d04479b61f8c3ed9fd9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5a46ce6591bf2ecfc547131434c76df') in 0.300432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d47ea9184d85bba4fb4b637ca3ec68cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/AR Default Face.prefab using Guid(d47ea9184d85bba4fb4b637ca3ec68cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c41c2bfca2119e3628ef0c05d2157d0') in 0.125435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Hologram/Hologram.shader
+  artifactKey: Guid(dc1aace57bfadc34693e546770364371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hologram/Hologram.shader using Guid(dc1aace57bfadc34693e546770364371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4287c5e20ba70075801c34293bbdf8f2') in 0.149349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Materials/Kitsune_Mat.mat
+  artifactKey: Guid(4c3f2a5377031a34fa89f05b03e7772b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Materials/Kitsune_Mat.mat using Guid(4c3f2a5377031a34fa89f05b03e7772b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ac389e2b80e53350875ce8433fac347') in 0.492220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Kitsune_SpecRoughness.tif
+  artifactKey: Guid(283f681c36d0cfc4984b07ac7ab976f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Kitsune_SpecRoughness.tif using Guid(283f681c36d0cfc4984b07ac7ab976f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a1a304e6608ab08df45aad1735a702a') in 0.291290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cdd290ea95c8f1d6f707e2c41302f36') in 0.053431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/XR/Loaders/AR Core Loader.asset
+  artifactKey: Guid(d55d58029217e264882a4a7e245462bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/Loaders/AR Core Loader.asset using Guid(d55d58029217e264882a4a7e245462bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1152991c4be822e57c7101053f3dc2ba') in 0.123816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/FaceOccluder.shader
+  artifactKey: Guid(6f800ab776afd7e43a154c5d1489d1be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FaceOccluder.shader using Guid(6f800ab776afd7e43a154c5d1489d1be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebae6c2c7dbdd7d0541f44a4a1d7b4f2') in 0.057352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(c07800374911fa449982d6a3195c4190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(c07800374911fa449982d6a3195c4190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5df41e002276de9f3bc9d6edbed011a0') in 0.147110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Japanese Mask/Demo SceneSettings.lighting
+  artifactKey: Guid(2960fe73ef6e367489a6af7baaa84294) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Demo SceneSettings.lighting using Guid(2960fe73ef6e367489a6af7baaa84294) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '701e6f98f8d9d75f2c55d584217e9ce6') in 0.126515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Kitsune.fbx
+  artifactKey: Guid(67cfc4f4d06282c489f25681ede6f15f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Kitsune.fbx using Guid(67cfc4f4d06282c489f25681ede6f15f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c5766dc77a5ef8409ad891b07adaef0') in 0.188813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Japanese Mask/Mask/Kitsune/Materials/lambert4.mat
+  artifactKey: Guid(8eb248909463cf943a9575260d48a2e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Mask/Kitsune/Materials/lambert4.mat using Guid(8eb248909463cf943a9575260d48a2e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58396d270a9ce7312ff505fa7a9d434a') in 0.070408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd61c90b3fef20066468ba84a9dc9c3ee') in 0.070490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Japanese Mask/Demo Scene.unity
+  artifactKey: Guid(a1af204f8e313fb4eabbc8d9f23ac2ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Demo Scene.unity using Guid(a1af204f8e313fb4eabbc8d9f23ac2ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2c90772178ae504ddaf3ffcc5839e1e') in 0.080316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.647354 seconds.
+  path: Assets/XR
+  artifactKey: Guid(a2d95504496e7274abb4256fcf0db6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(a2d95504496e7274abb4256fcf0db6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8a23e109959c27baf16f7014f6c9a7') in 0.037307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.616506 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.041739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.024171 seconds.
+  path: Packages/com.unity.xr.arfoundation/Materials/DebugFace.mat
+  artifactKey: Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Materials/DebugFace.mat using Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84a6437d28ae3eca253d56df2027f59') in 0.066203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001255 seconds.
+  path: Packages/com.unity.xr.arfoundation/Materials/DebugPlane.mat
+  artifactKey: Guid(f1a110d32af21aa4d872c707dfcc6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Materials/DebugPlane.mat using Guid(f1a110d32af21aa4d872c707dfcc6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab38909529d7642ce4876028bf1293b') in 0.526979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.356074 seconds.
+  path: Assets/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d47ea9184d85bba4fb4b637ca3ec68cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Default Face.prefab using Guid(d47ea9184d85bba4fb4b637ca3ec68cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb6491a4798469f114bfad00911bca3') in 0.222043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+  artifactKey: Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab using Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371f64f626853adafa02d3858613cc69') in 0.057674 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020555 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\pc\AR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pc\AR\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 41.222 seconds
+Domain Reload Profiling:
+	ReloadAssembly (41244ms)
+		BeginReloadAssembly (4525ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (167ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (9ms)
+			CreateAndSetChildDomain (1185ms)
+		EndReloadAssembly (34794ms)
+			LoadAssemblies (3033ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (11183ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (9951ms)
+			SetupLoadedEditorAssemblies (3929ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (318ms)
+				SetLoadedEditorAssemblies (24ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (1813ms)
+				ProcessInitializeOnLoadAttributes (1638ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (42ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3401 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.3 KB). Loaded Objects now: 3935.
+Memory consumption went from 124.1 MB to 124.0 MB.
+Total: 6.816600 ms (FindLiveObjects: 0.442900 ms CreateObjectMapping: 0.407600 ms MarkObjects: 5.675900 ms  DeleteObjects: 0.288200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 69.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.8 KB). Loaded Objects now: 3935.
+Memory consumption went from 56.1 MB to 56.0 MB.
+Total: 17.304700 ms (FindLiveObjects: 2.882300 ms CreateObjectMapping: 0.754800 ms MarkObjects: 12.849200 ms  DeleteObjects: 0.815600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 711.833226 seconds.
+  path: Assets/Japanese Mask/Demo Scene.unity
+  artifactKey: Guid(a1af204f8e313fb4eabbc8d9f23ac2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Demo Scene.unity using Guid(a1af204f8e313fb4eabbc8d9f23ac2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895c2c3756011ec9b1858fc511ef5f0a') in 0.378518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.419191 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b373601556616a1580579f6939ef43') in 0.619182 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.6 KB). Loaded Objects now: 3936.
+Memory consumption went from 55.8 MB to 55.7 MB.
+Total: 41.159600 ms (FindLiveObjects: 0.705500 ms CreateObjectMapping: 0.645400 ms MarkObjects: 39.493200 ms  DeleteObjects: 0.313400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 184.009215 seconds.
+  path: Assets/Japanese Mask/Shaders/StandardSpecular.shader
+  artifactKey: Guid(5c8da927d66a31340bde6d8b4f8f2639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Shaders/StandardSpecular.shader using Guid(5c8da927d66a31340bde6d8b4f8f2639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0414b70e47d1197a7b42c0adb5005df5') in 0.105355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(c07800374911fa449982d6a3195c4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(c07800374911fa449982d6a3195c4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54bfd554dae14bfabb853a193c5131e') in 0.094249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Japanese Mask/Demo Scene.unity
+  artifactKey: Guid(a1af204f8e313fb4eabbc8d9f23ac2ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Demo Scene.unity using Guid(a1af204f8e313fb4eabbc8d9f23ac2ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f73f70069d78a1f42b549f9f18561890') in 0.341651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.390605 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f5971b7c956948d5da29edac08c8c8') in 0.292704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.623680 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52e87812dc04c74fd954dee1228771a4') in 0.188989 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 47.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (77.7 KB). Loaded Objects now: 3936.
+Memory consumption went from 55.8 MB to 55.8 MB.
+Total: 49.985300 ms (FindLiveObjects: 1.966400 ms CreateObjectMapping: 3.340600 ms MarkObjects: 44.360000 ms  DeleteObjects: 0.316600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87.116390 seconds.
+  path: Assets/Japanese Mask/Demo Scene.unity
+  artifactKey: Guid(a1af204f8e313fb4eabbc8d9f23ac2ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Demo Scene.unity using Guid(a1af204f8e313fb4eabbc8d9f23ac2ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11d3a20a625a30853188e37606441193') in 0.163743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.242997 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7149da04ee798cb12b414d8e8d53e190') in 0.288838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.611512 seconds.
+  path: Assets/Japanese Mask/Prefabs/Kitsune.prefab
+  artifactKey: Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Japanese Mask/Prefabs/Kitsune.prefab using Guid(b2b6d96047db11c48b2e829e16ca0cce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c4f9f557a108551e4bd76093f2e0873') in 0.063563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.077002 seconds.
+  path: Assets/Prefabs/AR Default Face.prefab
+  artifactKey: Guid(d47ea9184d85bba4fb4b637ca3ec68cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Default Face.prefab using Guid(d47ea9184d85bba4fb4b637ca3ec68cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d04050e09386e123357d3a1158acbce') in 0.219274 seconds 
